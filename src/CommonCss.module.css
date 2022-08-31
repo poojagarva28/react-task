@@ -59,3 +59,15 @@
 .BoxContainer .PhotoBox:hover .Overlay {
   opacity: 1;
 }
+
+@media (max-width: 767px) {
+  .container {
+    display: block;
+  }
+  .BoxContainer .PhotoBox {
+    width: 33%;
+  }
+  .outerTable {
+    overflow-x: auto;
+  }
+}

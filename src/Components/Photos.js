@@ -27,7 +27,7 @@ const Photos = () => {
 
   return (
     <div className={CommonCss.albumContainer}>
-      <h2>Photos</h2>
+      <h1>Photos</h1>
       <div className={CommonCss.BoxContainer}>
         {photos?.map((item) => (
           <div key={item.id} className={CommonCss.PhotoBox}>

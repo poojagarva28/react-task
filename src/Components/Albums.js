@@ -24,34 +24,36 @@ const Albums = () => {
 
   return (
     <div className={CommonCss.container}>
-      <h2>Albums</h2>
-      <table>
-        <thead>
-          <tr>
-            <th>userId</th>
-            <th>albumId</th>
-            <th>album Name</th>
-            <th>Photos</th>
-          </tr>
-        </thead>
-        <tbody>
-          {albums?.map((item) => (
-            <tr key={item.id}>
-              <td>{item.userId}</td>
-              <td>{item.id}</td>
-              <td>{item.title}</td>
-              <td>
-                <Link to={`/photos/${item.id}`}>
-                  <span className="icons">
-                    <i className="fa fa-eye" />
-                    View
-                  </span>
-                </Link>
-              </td>
+      <h1>Albums</h1>
+      <div className={CommonCss.outerTable}>
+        <table>
+          <thead>
+            <tr>
+              <th>userId</th>
+              <th>albumId</th>
+              <th>album Name</th>
+              <th>Photos</th>
             </tr>
-          ))}
-        </tbody>
-      </table>
+          </thead>
+          <tbody>
+            {albums?.map((item) => (
+              <tr key={item.id}>
+                <td>{item.userId}</td>
+                <td>{item.id}</td>
+                <td>{item.title}</td>
+                <td>
+                  <Link to={`/photos/${item.id}`}>
+                    <span className="icons">
+                      <i className="fa fa-eye" />
+                      View
+                    </span>
+                  </Link>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 };
