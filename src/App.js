@@ -8,7 +8,7 @@ function App() {
     <div>
       <Router>
         <Routes>
-          <Route exact path="/" element={<Users />}></Route>
+          <Route exact path="/react-task" element={<Users />}></Route>
           <Route path="/albums/:id" element={<Albums />}></Route>
           <Route path="/photos/:id" element={<Photos />}></Route>
         </Routes>

@@ -23,8 +23,6 @@ const Photos = () => {
     })();
   }, [params.id]);
 
-  console.log(photos);
-
   return (
     <div className={CommonCss.albumContainer}>
       <h1>Photos</h1>
