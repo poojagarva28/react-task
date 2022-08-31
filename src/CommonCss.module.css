@@ -70,4 +70,7 @@
   .outerTable {
     overflow-x: auto;
   }
+  .albumContainer {
+    display: initial;
+  }
 }
