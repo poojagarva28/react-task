@@ -1,13 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: #0f172a;
+}
+table {
+  background-color: #191b25;
+  color: #b0b3d7;
+  border-collapse: collapse;
+  box-shadow: 0px 0px 150px 3px rgba(255, 255, 255, 0.11);
+  border-radius: 10px;
+}
+table thead tr th:first-child {
+  border-top-left-radius: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+table thead tr th:last-child {
+  border-top-right-radius: 10px;
+}
+a {
+  color: #c7c9e6;
+  text-decoration: none;
+}
+
+table thead {
+  background-color: rgba(255, 255, 255, 0.097);
+}
+table thead tr th {
+  text-transform: uppercase;
+  text-align: left;
+  color: #fff;
+}
+table th,
+table td {
+  padding: 10px 15px;
+}
+h2 {
+  color: #fff;
+}
+.fa {
+  margin-right: 5px;
+}
+.icons {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fa-search-plus {
+  color: #fff !important;
+  background-color: #000;
+  padding: 5px;
 }
