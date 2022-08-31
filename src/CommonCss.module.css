@@ -63,9 +63,10 @@
 @media (max-width: 767px) {
   .container {
     display: block;
+    margin-bottom: 50px;
   }
   .BoxContainer .PhotoBox {
-    width: 40%;
+    width: 35%;
   }
   .outerTable {
     overflow-x: auto;
