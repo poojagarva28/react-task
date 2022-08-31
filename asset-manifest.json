@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-task/static/css/main.3ae2182f.css",
-    "main.js": "/react-task/static/js/main.987ceb7b.js",
+    "main.css": "/react-task/static/css/main.ac44a418.css",
+    "main.js": "/react-task/static/js/main.c2f35304.js",
     "static/js/787.5a8c54cb.chunk.js": "/react-task/static/js/787.5a8c54cb.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-task/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/fontawesome-webfont.eot": "/react-task/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-task/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/react-task/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/react-task/index.html",
-    "main.3ae2182f.css.map": "/react-task/static/css/main.3ae2182f.css.map",
-    "main.987ceb7b.js.map": "/react-task/static/js/main.987ceb7b.js.map",
+    "main.ac44a418.css.map": "/react-task/static/css/main.ac44a418.css.map",
+    "main.c2f35304.js.map": "/react-task/static/js/main.c2f35304.js.map",
     "787.5a8c54cb.chunk.js.map": "/react-task/static/js/787.5a8c54cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3ae2182f.css",
-    "static/js/main.987ceb7b.js"
+    "static/css/main.ac44a418.css",
+    "static/js/main.c2f35304.js"
   ]
 }
