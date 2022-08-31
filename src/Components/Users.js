@@ -8,9 +8,16 @@ function Users(props) {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    axios.get("https://jsonplaceholder.typicode.com/users").then((res) => {
-      setUsers(res.data);
-    });
+    (async () => {
+      try {
+        const response = await axios.get(
+          "https://jsonplaceholder.typicode.com/users"
+        );
+        setUsers(response.data);
+      } catch (err) {
+        console.error(err);
+      }
+    })();
   }, []);
 
   return (

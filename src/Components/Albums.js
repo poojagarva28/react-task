@@ -41,7 +41,7 @@ const Albums = () => {
               <td>{item.id}</td>
               <td>{item.title}</td>
               <td>
-                <Link to={`/Photos/${item.id}`}>
+                <Link to={`/photos/${item.id}`}>
                   <span className="icons">
                     <i className="fa fa-eye" />
                     View
