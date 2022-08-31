@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-task/static/css/main.60fa45e0.css",
+    "main.css": "/react-task/static/css/main.fa036c5d.css",
     "main.js": "/react-task/static/js/main.3669f4d9.js",
     "static/js/787.5a8c54cb.chunk.js": "/react-task/static/js/787.5a8c54cb.chunk.js",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/react-task/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -9,12 +9,12 @@
     "static/media/fontawesome-webfont.woff?v=4.7.0": "/react-task/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/react-task/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/react-task/index.html",
-    "main.60fa45e0.css.map": "/react-task/static/css/main.60fa45e0.css.map",
+    "main.fa036c5d.css.map": "/react-task/static/css/main.fa036c5d.css.map",
     "main.3669f4d9.js.map": "/react-task/static/js/main.3669f4d9.js.map",
     "787.5a8c54cb.chunk.js.map": "/react-task/static/js/787.5a8c54cb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.60fa45e0.css",
+    "static/css/main.fa036c5d.css",
     "static/js/main.3669f4d9.js"
   ]
 }
